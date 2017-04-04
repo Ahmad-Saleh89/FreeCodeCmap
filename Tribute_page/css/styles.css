@@ -1,0 +1,145 @@
+body {
+  background-color: #96BCFF;
+}
+
+#main-content {
+  margin-top: 60px;
+
+}
+#namePic{
+  border: 2px solid #2923A4;
+  border-radius: 0px 30px;
+  box-shadow: 0px 0px 11px 5px #2923A4;
+  padding: 0 40px 40px;
+  background-color:#CCB4FF ;
+}
+
+#image {
+  opacity: .8;
+  padding: 2px;
+   border-radius: 0px 30px;
+  box-shadow: 0px 0px 11px 5px #2923A4;
+  filter: blur(1px);
+}
+#greene {
+  font-family: 'Revalia', cursive;
+  margin: 10px auto 20px;
+  vertical-align: middle;
+  border: 2px solid #2923A4;
+  border-radius:10px;
+  margin: 20px 40px;
+  box-shadow: 0px 0px 10px 1px #2923A4;
+  color: #44099A;
+}
+
+#greene h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 5px #222;
+
+}
+#greene p {
+  font-size: 1.5em;
+}
+
+#aboutGreene {
+  border-left: 2px solid orange;
+  border-right: 2px solid orange;
+  margin-top: 25px;
+  padding: 5px;
+}
+#aboutGreene h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+#aboutGreene hr, hr{
+  width: 250px;
+  display: block;
+}
+#aboutGreene p {
+  float: left;
+  font-size: 2em;
+   font-style: italic;
+  font-family:  'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.atom img{
+  height: 220px;
+  margin-top: 25px;
+  /*margin-right: 50px;*/
+}
+#rightAtom img {
+  float: right;
+}
+
+#info , #moreInfo {
+  margin-top: 30px;
+  padding: 0;
+}
+#info li {
+  margin: 20px;
+  padding: 10px;
+  padding-right: 80px;
+  border-right: 1px solid orange;
+  font-size: 1.5em;
+  font-style: italic;
+}
+#moreInfo p {
+  margin: 20px;
+  padding: 10px;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+footer {
+  font-size: 10px;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #info li {
+      border-right: 0px;
+    }
+    #aboutGreene {
+      border-left: 0;
+    }
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 767px) {
+    #namePic {
+      padding: 0 20px 20px;
+    }
+    #greene {
+      margin: 15px auto 20px;
+    }
+    #greene h1 {
+      font-size: 2em;
+      }
+    #greene p {
+      font-size: 1.1em;
+    }
+    #aboutGreene {
+     margin: 12px;
+     border: 0px;
+    }
+    #aboutGreene h2 {
+      font-size: 2.5em;
+    }
+    #aboutGreene p {
+      margin-right: 10px;
+      padding-right: 15px;
+    }
+    #info, #moreInfo {
+      text-align: center;
+    }
+    #info li {
+      border-right: 0px;
+      padding-right: 10px;
+    }
+}
