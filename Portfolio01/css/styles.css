@@ -1,0 +1,94 @@
+body {
+    background:url(../images/upperBackground.jpg);
+}
+
+#logo-img{
+   margin-top: 35px;
+   margin-left: 30px;
+    background-color: #FFFFFF;
+    background-image: url(../images/ahmadLogo.png);
+   border-radius: 30px;
+    height: 110px;
+    width: 160px;
+    border:2px solid #FAB92B;
+}
+
+#head-info {
+    margin: 13px;
+    margin-left: 60px;
+    padding-left: 10px;
+}
+h1 {
+ text-shadow: 2px 5px 6px #666;
+  font-size: 4em;
+  color: #DEEBD6;
+
+}
+
+#head-info p {
+    color: #EAF7FF;
+    font-family: 'Macondo', cursive;
+}
+
+#ahmadPhoto {
+    margin: 30px;
+}
+#ahmadPhoto img {
+    border: 2px solid orange;
+}
+
+#portfolio {
+    margin-top: 30px;
+}
+#portfolio h2{
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 30px;
+   text-shadow: 2px 2px 4px #E6E6E6;
+
+
+}
+ #portfolio, #navbar-div{
+    background-image: url(../images/Floorboard.jpg);
+    border: 3px solid #696970;
+}
+
+#about p {
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 200%;
+}
+
+#about, #contact, footer{
+    color: #EAF7FF;
+}
+
+footer p{
+    margin-bottom: 15px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3em;
+  }
+   #head-info {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
